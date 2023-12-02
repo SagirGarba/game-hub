@@ -10,6 +10,7 @@ import { Platform } from "./hooks/useGames";
 import GameHeading from "./components/GameHeading";
 
 export interface GameQuery {
+  searchText: any;
   genre: Genre | null;
   platform: Platform | null;
   sortOrder: string;
